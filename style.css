@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(35, 35, 35);
+    font-family: monospace;
+    margin: 2em 3.5em 0;
+}
+h1#title {
+    color: rgb(175, 175, 150);
+    text-transform: uppercase;
+    font-size: 2em;
+}
+h2#hint {
+    font-size: 1.25em;
+    color: rgb(200, 200, 200);
+    margin-top: 1.15em;
+    margin-bottom: 1em;
+}
+#text {
+    padding: 0.75em 1.15em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 3px #344556;
+    border-radius: 5px;
+}
+button {
+	border: 2px solid #00000;
+	background: #ccc;
+    padding: 0.5em 1.15em;
+    margin: 0.5em 0;
+    font: bold 1.05em 'Gill Sans', 'Gill Sans MT', Calibri,  sans-serif;
+	cursor: pointer;
+    color: #1a0338;
+    border-radius: 15% 5% 15% 5%;
+    transition: ease-in 0.2s all;
+}
+button:hover {
+    background: #2946f6;
+    border: 2px solid #fff;
+    color: #fff;
+}
+span {
+    color: rgb(225, 225, 200);
+    font: bold 1.15em serif;
+}
+input#search {
+    padding: 0.5em 0.75em;
+    font-size: 1.05em;
+    border: solid 3px #344556;
+    border-radius: 5px;
+}
+pre#view {
+    background-color: rgba(225, 225, 225, 0.95);
+    padding: 0.5em;
+    font-size: 1.25em;
+}
